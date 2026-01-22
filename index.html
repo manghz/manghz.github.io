@@ -706,6 +706,51 @@ What are you doing here?! you sneaky developer...
 
   <script src="main.js"></script>
 
+<!-- CONTACT MODAL -->
+<div id="contactModal" class="contact-modal">
+  <div class="contact-box">
+    <h2>Contacto</h2>
+
+    <ul>
+      <li>📧 miguelangel@email.com</li>
+      <li>
+        💼
+        <a href="https://www.linkedin.com/in/TUUSUARIO" target="_blank">
+          LinkedIn
+        </a>
+      </li>
+      <li>
+        🐙
+        <a href="https://github.com/manghz" target="_blank">
+          GitHub
+        </a>
+      </li>
+    </ul>
+
+    <button class="close-btn" id="closeContact">Cerrar</button>
+  </div>
+</div>
+
+  <script>
+  const openBtn = document.getElementById("openContact");
+  const modal = document.getElementById("contactModal");
+  const closeBtn = document.getElementById("closeContact");
+
+  openBtn.addEventListener("click", () => {
+    modal.classList.add("active");
+  });
+
+  closeBtn.addEventListener("click", () => {
+    modal.classList.remove("active");
+  });
+
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      modal.classList.remove("active");
+    }
+  });
+</script>
+  
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
