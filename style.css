@@ -2104,3 +2104,21 @@ footer {
 .close-btn:hover {
     transform: translateY(-2px);
 }
+
+.resume-btn:hover {
+    width: 45px;
+    border-radius: 50%;
+}
+
+.resume-btn:hover .text {
+    opacity: 0;
+    width: 0;
+}
+
+.resume-btn .text {
+    display: none;
+}
+
+.resume-btn {
+    transition: none;
+}
