@@ -940,6 +940,10 @@ noscript {
     transform: translateY(1px);
 }
 
+.resume-btn:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
 .about-section-container {
     width: 100%;
     height: fit-content;
