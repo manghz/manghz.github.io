@@ -868,13 +868,14 @@ noscript {
 }
 
 .resume-btn {
-    width: 130px;
-    height: 45px;
+    width: 180px;             
+    height: 50px;
     border-radius: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 15px;
+    padding: 0 16px;
+    cursor: pointer;
 }
 
 .projects-heading-article,
@@ -919,8 +920,9 @@ noscript {
 
 
 .resume-btn .sign {
-    width: 30px;
+    width: 30%;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -2105,9 +2107,10 @@ footer {
 
 
 .resume-btn .text {
+    width: 70%;
     opacity: 1;
+    text-align: center;
     white-space: nowrap;
-    position: static;
 }
 
 .resume-btn {
