@@ -911,11 +911,12 @@ noscript {
 }
 
 .resume-btn {
-    width: 130px;             
-    height: 45px;
+    background-color: #64ffda;   
+    color: #0a192f;
+    border: none;
     border-radius: 40px;
-    justify-content: space-between;
-    padding: 0 15px;
+    padding: 12px 24px;
+    cursor: pointer;
 }
 
 
