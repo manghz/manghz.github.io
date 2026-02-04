@@ -911,7 +911,7 @@ noscript {
 }
 
 .resume-btn {
-    width: 180px;              
+    width: 180px;
     height: 50px;
     border-radius: 40px;
     display: flex;
@@ -919,6 +919,10 @@ noscript {
     justify-content: space-between;
     padding: 0 16px;
     cursor: pointer;
+    margin-top: 10px;
+
+    background-color: #8000ff;   
+    color: white;              
 }
 
 
